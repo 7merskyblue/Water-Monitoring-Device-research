@@ -3,8 +3,8 @@
 #include <ESP32Ping.h>
 
 //Enter your SSID and PASSWORD
-const char* ssid     = "Nike7BlueMERCADAL";
-const char* password = "pass1111";
+const char* ssid     = "WIFI_SSID";
+const char* password = "WIFI_PASS";
 
 WiFiServer server(80);
 
@@ -12,7 +12,6 @@ WiFiServer server(80);
 IPAddress local_IP(192, 168, 1, 125);
 // Set your Gateway IP address
 IPAddress gateway(192, 168, 1, 123);
-
 IPAddress subnet(255, 255, 0, 0);
 IPAddress DNS(192, 168, 1, 123); 
 
@@ -59,6 +58,5 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
 }
